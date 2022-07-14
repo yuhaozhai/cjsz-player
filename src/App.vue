@@ -1,7 +1,7 @@
 <script setup lang="ts">
-// import {CjszPlayer} from "../dist/build.es"
+import {CjszPlayer} from "../dist/build.es"
 import { ref } from "vue"
-import CjszPlayer from "./packages/CjszPlayer/index.vue"
+// import CjszPlayer from "./packages/CjszPlayer/index.vue"
 
 const setPlayer = ref({
   download:true,

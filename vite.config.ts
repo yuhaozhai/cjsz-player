@@ -3,8 +3,9 @@ import vue from '@vitejs/plugin-vue'
 import * as path from 'path'
 import { resolve } from 'path'
 import svgLoader from 'vite-svg-loader'
+import libCss from 'vite-plugin-libcss';
 export default defineConfig({
-  plugins: [vue(),svgLoader({
+  plugins: [vue(),  libCss(),svgLoader({
     defaultImport: 'raw' // or 'url'
   })],
   // base:"/dist/",

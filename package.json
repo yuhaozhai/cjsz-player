@@ -1,7 +1,7 @@
 {
   "name": "@cjsz/cjsz-player",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "长江数字视频播放器",
   "author": "zyh619",
   "repository": {
@@ -44,6 +44,7 @@
     "@vitejs/plugin-vue": "^2.3.3",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
+    "vite-plugin-libcss": "^1.0.5",
     "vite-svg-loader": "^3.4.0",
     "vue-tsc": "^0.34.7"
   }
