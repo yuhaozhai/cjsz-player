@@ -4,6 +4,10 @@
   "version": "1.0.2",
   "description": "长江数字视频播放器",
   "author": "zyh619",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuhaozhai/cjsz-player.git"
+  },
   "keywords": [
     "cjsz",
     "vue3",
